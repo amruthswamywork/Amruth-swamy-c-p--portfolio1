@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amruth Swamy | Cloud & DevOps Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; background: #0f172a; color: #f1f5f9; }
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            padding: 20px;
+        }
+        header h1 { font-size: 3rem; font-weight: 700; }
+        header h2 { margin-top: 10px; font-weight: 400; color: #38bdf8; }
+        header p { margin-top: 20px; max-width: 700px; line-height: 1.6; }
+        .btn {
+            margin-top: 30px;
+            padding: 12px 25px;
+            background: #38bdf8;
+            color: #0f172a;
+            border: none;
+            border-radius: 30px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+        .btn:hover { background: #0ea5e9; }
+        section { padding: 80px 10%; }
+        h3 { font-size: 2rem; margin-bottom: 40px; text-align: center; }
+        .skills, .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; }
+        .card {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+        .card:hover { transform: translateY(-5px); }
+        .architecture {
+            background: #111827;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        .architecture img {
+            width: 100%;
+            max-width: 900px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        footer {
+            padding: 40px;
+            text-align: center;
+            background: #1e293b;
+        }
+        footer a { color: #38bdf8; text-decoration: none; }
+        @media(max-width: 768px) {
+            header h1 { font-size: 2rem; }
+            section { padding: 60px 5%; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Amruth Swamy C P</h1>
+    <h2>Cloud & DevOps Engineer | AWS | Kubernetes | Terraform | SRE</h2>
+    <p>
+        Automating infrastructure, designing scalable cloud systems, and building reliable CI/CD pipelines.
+        Focused on production-grade AWS architecture, observability, and high-availability deployments.
+    </p>
+    <a href="#contact" class="btn">Get In Touch</a>
+</header>
+
+<section>
+    <h3>Core Skills</h3>
+    <div class="skills">
+        <div class="card">AWS (EC2, VPC, IAM, ALB, S3, Auto Scaling)</div>
+        <div class="card">Terraform (IaC, Remote Backend, State Locking)</div>
+        <div class="card">Docker & Kubernetes (Rolling, Blue-Green, Canary)</div>
+        <div class="card">CI/CD (Jenkins, GitHub Actions)</div>
+        <div class="card">Monitoring (Prometheus, Grafana, CloudWatch)</div>
+        <div class="card">Nginx, Apache, SSL Configuration</div>
+    </div>
+</section>
+
+<section>
+    <h3>Featured Projects</h3>
+    <div class="projects">
+        <div class="card">
+            <h4>CloudCart Mart</h4>
+            <p>Production-ready 3-tier AWS architecture using Terraform, Kubernetes deployments, and CI/CD automation.</p>
+        </div>
+        <div class="card">
+            <h4>Intrusion Detection System</h4>
+            <p>ML-based anomaly detection deployed on AWS with Docker, Kubernetes, and centralized monitoring.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h3>Architecture Showcase</h3>
+    <div class="architecture">
+        <p>Example: Scalable 3-Tier AWS Architecture with Load Balancer, Auto Scaling, Private Subnets, and Monitoring.</p>
+        <img src="a_personal_portfolio_webpage_showcases_amruth_swam.png" alt="AWS Architecture Diagram">
+    </div>
+</section>
+
+<footer id="contact">
+    <h3>Contact Me</h3>
+    <p>Email: <a href="mailto:amruthswamy11@gmail.com">amruthswamy11@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/amruthswamycp079" target="_blank">linkedin.com/in/amruthswamycp079</a></p>
+    <p>GitHub: <a href="https://github.com/amruthswamywork" target="_blank">github.com/amruthswamywork</a></p>
+    <p style="margin-top:20px; font-size: 0.9rem; color: #94a3b8;">© 2026 Amruth Swamy | DevOps Portfolio</p>
+</footer>
+
+</body>
+</html>
